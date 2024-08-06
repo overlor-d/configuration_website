@@ -97,6 +97,9 @@ sudo ufw enable
 sudo nginx -t
 sudo systemctl restart nginx
 
+sudo ufw allow 80/tcp
+sudo ufw reload
+
 sudo ss -tuln | grep 80
 
 echo "Configuration terminée. Accédez à votre site web à l'adresse http://85.215.196.128/"
