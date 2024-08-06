@@ -79,7 +79,7 @@ sudo bash -c 'cat > /var/www/html/index.html <<EOF
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Welcome on my title</title>
+    <title>Title</title>
 </head>
 <body>
     <h1>Online !<br>abcdefghijklmnopqrstuvwxyz!?éèàê0123456789<br>ABCDEFGHIJKLMNOPQRSTUVWXYZ&{}()[]</h1>
